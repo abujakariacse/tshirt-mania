@@ -1,0 +1,28 @@
+.cart-container {
+    background-color: rgba(173, 216, 230, 0.616);
+    position: sticky;
+    top: 0;
+}
+
+.cart-product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.product img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.product {
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.product-name {
+    margin-left: 30px;
+}

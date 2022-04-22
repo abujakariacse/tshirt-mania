@@ -1,7 +1,25 @@
 .product-container {
     height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 3px 5px 15px gray;
+    border-radius: 10px;
 
+}
+
+.product-container button {
+    background-color: orange;
+    border: 0;
+    padding: 8px;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.product-container button:hover {
+    background-color: #12B0E8;
 }
 
 .product-container img {
