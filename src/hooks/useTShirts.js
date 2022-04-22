@@ -2,13 +2,13 @@ import { useEffect, useState } from "react"
 
 const useTShirts= () =>{
 
-    const [tShirt,setTShirt] = useState([]);
+    const [tShirts,setTShirts] = useState([]);
     useEffect(()=>{
         fetch('tshirts.json')
         .then(res=>res.json())
-        .then(data=>setTShirt(data))
+        .then(data=>setTShirts(data))
     },[])
-    return [tShirt,setTShirt];
+    return [tShirts,setTShirts];
 }
 
 export default useTShirts;

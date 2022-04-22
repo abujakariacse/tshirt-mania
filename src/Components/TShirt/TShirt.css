@@ -1,0 +1,10 @@
+.product-container {
+    height: 500px;
+    border: 1px solid black;
+
+}
+
+.product-container img {
+    height: 250px;
+
+}
