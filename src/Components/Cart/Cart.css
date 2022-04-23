@@ -6,8 +6,12 @@
 
 .cart-product-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 5fr 1fr;
     align-items: center;
+}
+
+.cart-product-container button {
+    padding: 10px;
 }
 
 .product img {
@@ -25,4 +29,22 @@
 
 .product-name {
     margin-left: 30px;
+}
+
+.addtocart-btn {
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.618);
+    cursor: pointer;
+}
+
+.addtocart-btn:hover {
+    background-color: rgb(47, 47, 240);
+    color: white;
+    transition: 0.4s;
+}
+
+.icon {
+    font-size: 26px;
+
 }

@@ -13,6 +13,7 @@ const Home = () => {
         if(!exist){
             const newCart = [...cart,clickedItem];
             setCart(newCart)
+            console.log(cart)
         }
         else{
             alert("Already Added")
