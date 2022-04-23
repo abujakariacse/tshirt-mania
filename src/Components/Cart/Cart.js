@@ -8,7 +8,7 @@ const Cart = ({cart,handleRemoveFromCart}) => {
         <div className='cart-container'>
             <h2>Added Products: {cart.length}</h2>
             {
-                cart.map(product=><div className='cart-product-container'>
+                cart.map(product=><div className='cart-product-container'  key={product._id}>
                    <div className='product'>
                     <img src={product.picture} alt="" />
                     <h4 className='product-name'>{product.name}</h4>
